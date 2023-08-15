@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfumes latinos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="h1">Empleado del mes</h1>
+        <form class="form">
+            <table class="table">
+                <thead class="table__thead">
+                    <tr class="table__tr">
+                        <th class="table__th">Producto</th>
+                        <th class="table__th">Precio (USD)</th>
+                        <th class="table__th">Juan</th>
+                        <th class="table__th">Pedro</th>
+                    </tr>
+                </thead>
+                    <tr class="table__tr">
+                        <td class="table__td">Aqua</td>
+                        <td class="table__td">200</td>
+                        <td class="table__td"><input type="number" id="aquaJuan" class="table__input" min="0" value="0"></td>
+                        <td class="table__td"><input type="number" id="aquaPedro" class="table__input" min="0" value="0"></td>
+                    </tr>
+                    <tr class="table__tr">
+                        <td class="table__td">Emoción</td>
+                        <td class="table__td">180</td>
+                        <td class="table__td"><input type="number" id="emocionJuan" class="table__input" min="0" value="0"></td>
+                        <td class="table__td"><input type="number" id="emocionPedro" class="table__input" min="0" value="0"></td>
+                    </tr>
+                    <tr class="table__tr">
+                        <td class="table__td">Alegría</td>
+                        <td class="table__td">160</td>
+                        <td class="table__td"><input type="number" id="alegriaJuan" class="table__input" min="0" value="0"></td>
+                        <td class="table__td"><input type="number" id="alegriaPedro" class="table__input" min="0" value="0"></td>
+                    </tr>
+                    <tr class="table__tr">
+                        <td class="table__td">Frescura</td>
+                        <td class="table__td">150</td>
+                        <td class="table__td"><input type="number" id="frescuraJuan" class="table__input" min="0" value="0"></td>
+                        <td class="table__td"><input type="number" id="frescuraPedro" class="table__input" min="0" value="0"></td>
+                    </tr>
+            </table>
+        </form>
+    
+    <button type="button" onclick="calcularTotal()" class="button">sub Total</button>
+    <button type="button" onclick="calcularTotalAmbosVendedores()" class="button">Total </button>
+
+    <h2 class="total-header__h2">Total Ventas por Vendedor:</h2>
+    <p id="totalJuan" class="total__p">Juan: 0 USD</p>
+    <p id="totalPedro" class="total__p">Pedro: 0 USD</p>
+    <p id="totalAmbosVendedores" class="total__p">Total Ambos Vendedores: 0 USD</p>
+
+    <script src="./index.js"></script>
+</body>
+</html>
+
