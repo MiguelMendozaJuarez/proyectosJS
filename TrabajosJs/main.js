@@ -408,14 +408,117 @@
 // }
 
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// const pregunta = prompt('cual es tu edad')
+
+// if (pregunta >= 18){
+//     alert('puedes manejar ')
+// }
+// else{
+//     alert('no puedes manejar')
+// }
 
 
-let num = Number(prompt('Por favor, escribe un numero'))
+// do{ 
+//     let pregunta = prompt('da una calificacion del 1 al 10')
 
-    if(num % 2 === 0){
-        alert('tu numero es par')
-    }
-    else{
-        
-        alert('tu numero es impar')
-    }
+//     if ( pregunta === '0' || pregunta ==='1' || pregunta ==='2'){
+//         alert('Muy deficiente')
+//     }
+//     else if (pregunta === '3' || pregunta === '4'){
+//         alert('Deficiente')
+//     }
+//     else if (pregunta === '5' || pregunta === '6'){
+//         alert('Suficiente')
+//     }
+//     else if (pregunta === '7' || pregunta === '8'){
+//         alert('Bien')
+//     }
+//     else if (pregunta === '9' ){
+//         alert('Notable')
+//     }
+//     else if (pregunta === '10' ){
+//         alert('Sobresaliente')
+//     }
+//     else{
+//         alert('Ingrese un numero')
+//     }}
+//     while(pregunta !== null && pregunta !== undefined)
+
+// let array = []; 
+// let pregunta;
+
+// do {
+//     pregunta = prompt('Ingresa palabras');
+    
+//     if (pregunta !== null && pregunta !== undefined) {
+//         array.push(pregunta, '-');
+//     }
+// } while (pregunta !== null && pregunta !== undefined);
+
+// console.log(array.join(' '));
+
+// let pregunta;
+// let string='';
+
+// do {
+//     pregunta = prompt('Ingresa palabras');
+    
+//     if (pregunta !== null && pregunta !== undefined) {
+//         string += pregunta + '-';
+//     }
+// } while (pregunta !== null && pregunta !== undefined);
+
+// console.log(string);
+
+// let numero1 = prompt('escribe un numero')
+// let numero2 = prompt('escribe otro numero')
+
+// if (numero1 <0 || numero2 <0){
+//     alert('por favor escrive un numero mayor a 0')
+// }
+// else if(isNaN(numero1) || isNaN(numero2)){
+//     alert('por favor escrive un numero')
+// }
+
+// else if(numero1 > numero2){
+//     document.write(numero1, ' es mayor y ', numero2, ' es  menor')
+// }
+// else if(numero2 > numero1){
+//     document.write(numero1, ' es menor y ', numero2, ' es mayor ')
+// }
+// else if (numero1 === numero2){
+//     document.write(numero1,' y ',numero2, ' son iguales ')
+// }
+// else{
+//     document.write('introduce un valor valido')
+// }
+
+
+
+
+// ((a,b)=>{
+//     return console.log(a +b);
+// })(2,10)
+
+// const suma = (a,b) => a + b;
+// console.log(suma(9,9))
+
+// const  suma = (a,b) => a+b;
+
+// console.log(suma(90,10))
+
+// ((a,b)=> console.log(a+b))(3,16);
+
+// function Animal(nombre,color){
+//     this.nombre = nombre;
+//     this.color = color;
+// }
+
+// const conejo = new Animal('conejo','blanco');
+// const leon = new Animal('leon','cafe');
+
+// console.log(conejo);
+// console.log(leon);
+////////////////////////////////////////////////////////////////////////////////////////////////////
